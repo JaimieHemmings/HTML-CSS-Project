@@ -75,6 +75,8 @@ As a frequent visitor...
 
 - Mobile Wireframes
 
+  ![Homepage Wireframe Mobile](assets/img/wireframes/wireframe-mobile.png)
+
 ## Features
 
 - The Tamar Aquatics Website needs to be responsive on all screen sizes
