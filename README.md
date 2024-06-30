@@ -19,32 +19,26 @@ Tamar Aquatics is local aquarium store near me that I believe could use a websit
 
 ## Overview
 
-======
-
 ## User Experience (UX)
-
-======
 
 ## Features
 
-======
-
 ## Technologies Used
 
-======
+### Languages Used
+
+- HTML
+- CSS
+- JavaScript
+
+### Frameworks, Libraries and Programmes Used
+
+1. [Josh's Custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 
 ## Testing
 
-======
-
 ## Deployment
-
-======
 
 ## Credits
 
-======
-
 ## Acknowledgements
-
-======
