@@ -97,6 +97,7 @@ As a frequent visitor...
 - The website also features an interactive carousel at the top of the homepage.
 - A carousel displaying various aquatic animals is also visible on the homepage.
 - A form on the Contact page allows users to send a message to the owners of the website and offers the option to sign up for newsletters at the same time.
+- The website is compatible with assistive technology such as screen readers.
 
 ## <a name="TechnologiesUsed"></a>Technologies Used
 
