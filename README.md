@@ -69,6 +69,7 @@ As a frequent visitor...
 ### Wireframes
 
 - Homepage Wireframes
+  ![Homepage Wireframe 1](assets/img/wireframes/wireframe-homepage-1.png)
 
 - Mobile Wireframes
 
@@ -79,6 +80,7 @@ As a frequent visitor...
 - The website features a Homepage, About Us, and a Contact page. A login page for fictional customers which redirects to a thank you page upon submission.
 - The website also features an interactive carousel at the top of the homepage.
 - A carousel displaying various aquatic animals is also visible on the homepage.
+- A form on the Contact page allows users to send a message to the owners of the website and offers the option to sign up for newsletters at the same time.
 
 ## Technologies Used
 
