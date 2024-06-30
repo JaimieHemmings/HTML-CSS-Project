@@ -69,7 +69,9 @@ As a frequent visitor...
 ### Wireframes
 
 - Homepage Wireframes
+
   ![Homepage Wireframe 1](assets/img/wireframes/wireframe-homepage-1.png)
+  ![Homepage Wireframe 2](assets/img/wireframes/wireframe-homepage-2.png)
 
 - Mobile Wireframes
 
