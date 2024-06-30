@@ -111,6 +111,10 @@ As a frequent visitor...
 
 1. [Josh's Custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 2. [Google Fonts Ubuntu](https://fonts.google.com/specimen/Ubuntu)
+3. [CloudConvert](https://cloudconvert.com/)
+   - For converting images to webp format.
+4. [Bootstrap 5](https://getbootstrap.com/)
+5. [Font Awesome](https://fontawesome.com/)
 
 ## Testing
 
@@ -136,6 +140,8 @@ As a frequent visitor...
 - The Code Institute README template was used as the basis for the creation of this project's README file.
 
 ### Media
+
+[Unsplash](https://unsplash.com/) Was used to source images used across the site.
 
 ## Acknowledgements
 
