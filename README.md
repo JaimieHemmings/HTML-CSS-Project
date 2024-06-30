@@ -41,4 +41,16 @@ Tamar Aquatics is local aquarium store near me that I believe could use a websit
 
 ## Credits
 
+### Content
+
+- The Code Institute README template was used as the basis for the creation of this project's README file.
+
+### Media
+
 ## Acknowledgements
+
+- Special thanks to Code Institute for a highly effective and engagement learning environment and to East Kent College for the support and insights offered into the assessment criteria.
+
+## Copyright
+
+- Me 2024
