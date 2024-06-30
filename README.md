@@ -115,6 +115,19 @@ As a frequent visitor...
 
 ## Deployment
 
+### GitHub Pages
+
+- The project uses GitHub pages for Deployment using the following steps
+
+1. Create and/or Log in to GitHub
+2. Locate the repository within GitHub
+3. Within the repository, click on Settings
+4. Within the settings page locate the sub-menu on the left hand side and click on Pages
+5. Under "Source" select "Branch:main" then /root
+6. Click Save
+7. Wait a few moments for the repository to deploy
+8. At this point the repository will be deployed and ready to view
+
 ## Credits
 
 ### Content
