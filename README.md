@@ -74,6 +74,12 @@ As a frequent visitor...
 
 ## Features
 
+- The Tamar Aquatics Website needs to be responsive on all screen sizes
+- The website uses rich media content and elements including embedded YouTube videos, Forms, links, buttons, and drop down choices.
+- The website features a Homepage, About Us, and a Contact page. A login page for fictional customers which redirects to a thank you page upon submission.
+- The website also features an interactive carousel at the top of the homepage.
+- A carousel displaying various aquatic animals is also visible on the homepage.
+
 ## Technologies Used
 
 ### Languages Used
