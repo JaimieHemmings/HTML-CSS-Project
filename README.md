@@ -19,7 +19,19 @@ Tamar Aquatics is local aquarium store near me that I believe could use a websit
 
 ## Overview
 
-## User Experience (UX)
+As a stockist of live coldwater and tropical fish as well as a range of aquariums, decorations, substrates, food, aquarium plants and various other accessories, Tamar Aquatics needs a way to communicate their stock and services to the general public.
+
+In addition to this, Tamar Aquatics also has several members on staff that are qualified experts in animal husbandry.
+
+In order to address the questions and concerns of the general public, Tamar Aquatics website needs to:
+
+- Establish the companies brand and visual identity
+- Provide information on services available on site
+- Provide bite sze and easy to digest information on animal care
+- Offer a comprehensive overview of current availability of stock
+- Establish the companies authority in animal care knowledge
+
+## <a name="UX"></a>User Experience (UX)
 
 ### User Stories
 
@@ -86,7 +98,7 @@ As a frequent visitor...
 - A carousel displaying various aquatic animals is also visible on the homepage.
 - A form on the Contact page allows users to send a message to the owners of the website and offers the option to sign up for newsletters at the same time.
 
-## Technologies Used
+## <a name="TechnologiesUsed"></a>Technologies Used
 
 ### Languages Used
 
