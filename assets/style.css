@@ -70,54 +70,38 @@ p {
   background-color: var(--primary-color);
 }
 
-/*
-    Navbar Styles
-*/
-
-nav {
-  background-color: var(--primary-color);
-  padding-top: 15px;
-  padding-bottom: 15px;
+.autoshow {
+  animation: autoshowAnimation both;
+  animation-timeline: view(40% 15%);
 }
 
-nav button {
-  display: none;
-}
-
-a.logo {
-  font-weight: 900;
-  text-decoration: none;
-  font-size: 1.4rem;
-  color: #222;
-}
-
-#nav-links {
-  text-align: right;
-}
-
-#nav-links a {
-  text-decoration: none;
-  color: #222;
-  padding: 0 15px;
-  line-height: 2.4rem;
-  font-size: 1.2rem;
+@keyframes autoshowAnimation {
+  from {
+    opacity: 0;
+    scale: 0.8;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
 }
 
 /*
     Homepage Slider Styles
 */
 
-.glide__slide {
-  width: 100%;
-  height: 450px;
+.carousel-item {
+  min-height: 500px;
+  position: relative;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  position: relative;
-  color: #fff;
+  /* Image source https://unsplash.com/photos/two-siamese-fighting-fishes-nCz_ZgnbtaE */
+  background-image: url('img/bg-images/betta-pair.webp');
+  background-position: 50% 75%;
 }
 
-.glide__slide:after {
+.carousel-item:after {
   content: '';
   position: absolute;
   top: 0;
@@ -128,16 +112,17 @@ a.logo {
   z-index: 1;
 }
 
-.glide__slide > * {
+.carousel-item > * {
   position: relative;
   z-index: 2;
+  color: #fff;
 }
 
-.glide__slide .container {
+.carousel-item .container {
   height: 100%;
 }
 
-.glide__slide .container h2 {
+.carousel-item .container h2 {
   margin-top: 100px;
   line-height: 1.5;
   margin-bottom: 15px;
@@ -147,7 +132,7 @@ a.logo {
   font-weight: 700;
 }
 
-.glide__slide .container p {
+.carousel-item .container p {
   width: 50%;
   line-height: 1.5;
   font-size: 1rem;
@@ -191,7 +176,7 @@ a.logo {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   z-index: 1;
 }
 
