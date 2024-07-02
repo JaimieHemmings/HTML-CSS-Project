@@ -122,7 +122,7 @@ During the development stage I continuously carried out tests across a variety o
 
 ### Bugs and Solutions
 
-1. The use of the `view()` CSS function can be used with `animation-timeline`. However, it has limited availability across the major browsers. At the time of writing this document, it is only supported on Chrome and Edge. Regardless, the usage of this CSS function does not cause any issues when viewed in Firefox or Safari but does provide additional aesthetic enhancements for users on Chrome and Edge and so I have decide to commit to the usage of this CSS function. Additionally, in future, I imagine that Safari and Firefox will be updated to be compatible with the `view()` CSS function.
+1. The use of the `view()` CSS function can be used with `animation-timeline`. However, it has limited availability across the major browsers. At the time of writing this document, it is only supported on Chrome and Edge. Regardless, the usage of this CSS function does not cause any issues when viewed in Firefox or Safari but does provide additional aesthetic enhancements for users on Chrome and Edge and so I have decide to commit to the usage of this CSS function. Additionally, in future, I imagine that Safari and Firefox will be updated to be compatible with the `view()` CSS function. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline/view)
 
 ## Deployment
 
@@ -148,6 +148,7 @@ During the development stage I continuously carried out tests across a variety o
 ### Media
 
 [Unsplash](https://unsplash.com/) Was used to source images used across the site.
+[99designs](https://99designs.com/inspiration/logos/aquarium) for various fake logos.
 
 ## Acknowledgements
 
