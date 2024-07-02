@@ -70,12 +70,15 @@ As a frequent visitor...
 ### Design
 
 - Colour Scheme
+
   The main colours used on the website are a deep blue, a lighter shade of blue, green, black and white. These colours allow me to create an aesthetic website while offering good contrast to improve readability of text as well as draw attention to important sections of the website. colour can have a massive impact on an individuals psychology and how they interprate a message. [The psychology of Color](https://99designs.com/blog/creative-inspiration/psychology-color-web-design/)
 
 - Typography
+
   For fonts I will be using "Ubuntu". With Ubuntu Bold being used mostly for headings and interactive elements to help draw attention as well as being a sans serif font offering increased legibility on all screen types.
 
 - Imagery
+
   Images used across the site were carefully selected for their low file size to improve load times while maintaining a high quality to improve fidelity on larger screens. Images will focus on fish and natural habitats of those fish as well as images of products sold in the store.
 
 ### Wireframes
@@ -148,6 +151,7 @@ During the development stage I continuously carried out tests across a variety o
 ### Media
 
 [Unsplash](https://unsplash.com/) Was used to source images used across the site.
+
 [99designs](https://99designs.com/inspiration/logos/aquarium) for various fake logos.
 
 ## Acknowledgements
