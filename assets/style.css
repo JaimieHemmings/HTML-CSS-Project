@@ -92,6 +92,31 @@ p {
   }
 }
 
+.bg-fixed {
+  background-size: 0px !important;
+  overflow: hidden;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.bg-fixed:before {
+  background-image: inherit !important;
+  background-repeat: inherit !important;
+  background-size: cover;
+  background-position: inherit;
+  content: '';
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1 !important;
+  pointer-events: none;
+  /*** if more than one is handled - very performance intensive 
+  will-change: transform;  ***/
+}
+
 /*
     Homepage Slider Styles
 */
