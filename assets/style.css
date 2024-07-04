@@ -51,23 +51,8 @@ p {
 }
 
 :root {
-  --primary-color: #858eaa;
+  --primary-color: #009dc4;
   --secondary-color: #5cff67;
-}
-
-.btn-main {
-  background-color: #7395ff;
-  padding: 5px 30px;
-  border-radius: 5px;
-  font-weight: 700;
-  text-decoration: none;
-  color: #fff;
-  transition: background 0.3s ease-in-out;
-  font-size: 1.2rem;
-}
-
-.btn-main:hover {
-  background-color: var(--primary-color);
 }
 
 .autoshow {
@@ -90,6 +75,11 @@ p {
   .reverse-md {
     flex-direction: row-reverse;
   }
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
 }
 
 /*
@@ -119,6 +109,51 @@ p {
   pointer-events: none;
   /*** if more than one is handled - very performance intensive 
   will-change: transform;  ***/
+}
+
+.card-footer {
+  background-color: initial;
+  border: none;
+}
+
+
+@media screen and (min-width: 768px) {
+  .card h2 {
+    min-height: 80px;
+  }
+}
+
+.card p {
+  padding: 1rem 0 0 0;
+}
+
+.color-primary {
+  color: var(--primary-color);
+}
+
+/*
+  Navbar Socials styles
+*/
+
+.nav-socials {
+  display: flex;
+  align-items: center;
+}
+
+.nav-socials a {
+  margin-right: 0.5rem;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 0.5rem;
+}
+
+.nav-socials a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media(min-width: 768px){
+  .nav-socials {
+    margin-left: 1rem;
+  }
 }
 
 /*
@@ -161,22 +196,21 @@ p {
   margin-bottom: 15px;
   width: 70%;
   font-size: 2rem;
-  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
+  color: var(--primary-color);
 }
 
 .carousel-item .container p {
   width: 50%;
   line-height: 1.5;
   font-size: 1rem;
-  font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   margin-bottom: 35px;
 }
 
 .slide_1 {
-  /* Image source https://unsplash.com/photos/two-siamese-fighting-fishes-nCz_ZgnbtaE */
-  background-image: url('img/bg-images/betta-pair.webp');
+  /* Image source https://unsplash.com/photos/a-fish-that-is-swimming-in-a-tank-HHJmF9Gtd78 */
+  background-image: url('img/bg-images/blue-fish.webp');
   background-position: 50% 75%;
 }
 
@@ -184,6 +218,23 @@ p {
   /* Image Source https://unsplash.com/photos/blue-and-red-butterfly-on-green-plant-D6JnQr-HYd8 */
   background-image: url('img/bg-images/betta-in-elodea.webp');
   background-position: 50% 35%;
+}
+
+.slide_3 {
+  /* Image Source https://unsplash.com/photos/orange-koi-fish-on-body-of-water-S5RwcwBS2lQ */
+  background-image: url('img/bg-images/fish-in-pond.webp');
+  background-position: 50% 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-item .container h2 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-item .container p {
+    width: 80%;
+    font-size: 0.8rem;
+  }
 }
 
 /*
@@ -195,6 +246,8 @@ p {
   width: 100%;
   height: 100px;
   mask-image: linear-gradient(to right, transparent, #000, transparent);
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 .brand-slider .list {
   display: flex;
@@ -230,6 +283,28 @@ p {
 }
 
 /*
+    Services Styles
+*/
+
+.services h3 {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    text-align: center;
+  }
+
+  .services h3 {
+    padding-top: 1rem;
+  }
+
+  .services p {
+    padding-bottom: 1rem;
+  }
+}
+
+/*
     Call to Action Styles
 */
 
@@ -243,6 +318,7 @@ p {
   padding-bottom: 200px;
   text-align: center;
   position: relative;
+  color: #fff;
 }
 
 .cta:after {
@@ -252,13 +328,26 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 1;
 }
 
 .cta > * {
   position: relative;
   z-index: 2;
+}
+
+.cta h2 {
+  font-weight: 900;
+}
+
+.cta p {
+  font-weight: 500;
+}
+
+.cta span {
+  font-weight: 700;
+  color: var(--primary-color);
 }
 
 /*
@@ -269,13 +358,83 @@ p {
   position: relative;
 }
 
+.contact-section h2 {
+  color: var(--primary-color);
+}
+
 .responsive-iframe {
   width: 50vw;
-  height: 400px;
+  height: 100%;
   position: absolute;
   right: 0;
   top: 0;
 }
+
+.contact-section .contact-form input {
+  margin-bottom: 1rem;
+}
+
+.contact-section .contact-form input,
+.contact-section .contact-form label {
+  display: block;
+  width: 100%;
+}
+
+.contact-section .contact-form input[type=textarea] {
+  width: 100%;
+  min-height: 200px;
+}
+
+.contact-form p span {
+  display: block;
+  font-weight: 100;
+}
+
+.contact-section .contact-radios input, .contact-section .contact-radios label {
+  display: inline-block;
+  max-width: 50px;
+}
+
+.contact-section input[type="submit"] {
+  background-color: var(--primary-color);
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+  font: inheret;
+}
+
+.contact-section input[type="submit"]:hover {
+  background-color: #0b5ed7;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-section .container {
+    padding: 0;
+  }
+  .contact-section .w-50 {
+    width: 100% !important;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .responsive-iframe {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+}
+
 
 /*
     Footer Styles
@@ -285,6 +444,7 @@ footer {
   background-color: var(--primary-color);
   padding-top: 15px;
   padding-bottom: 15px;
+  color: #fff;
 }
 
 footer p {

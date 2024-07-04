@@ -94,11 +94,10 @@ As a frequent visitor...
 
 ## Features
 
-- The Tamar Aquatics Website needs to be responsive on all screen sizes
-- The website uses rich media content and elements including embedded YouTube videos, Forms, links, buttons, and drop down choices.
+- The Tamar Aquatics Website needs to be responsive on all screen sizes.
+- The website uses rich media content and elements including Forms, links, and buttons.
 - The website features a Homepage, About Us, and a Contact page. A login page for fictional customers which redirects to a thank you page upon submission.
 - The website also features an interactive carousel at the top of the homepage.
-- A carousel displaying various aquatic animals is also visible on the homepage.
 - A form on the Contact page allows users to send a message to the owners of the website and offers the option to sign up for newsletters at the same time.
 - The website is compatible with assistive technology such as screen readers.
 
@@ -108,7 +107,6 @@ As a frequent visitor...
 
 - HTML
 - CSS
-- JavaScript
 
 ### Frameworks, Libraries and Programmes Used
 
@@ -118,6 +116,19 @@ As a frequent visitor...
    - For converting images to webp format.
 4. [Bootstrap 5](https://getbootstrap.com/)
 5. [Font Awesome](https://fontawesome.com/)
+6. Photoshop
+  - Photoshop was used to resize and optimise images in preparation for use on the Tamar Aquatics Website.
+7. Git
+  - Git was used for Version Control.
+8. GitHub
+  - GitHub is used as the repository for the project
+9. Balsamiq
+  - Balsamiq was used to create the wireframes for the homepage of the website.
+10. Dev Tools were used to aid in the development and testing of the website across the following broswers:
+  - Chrome
+  - Safari
+  - Edge
+  - Firefox
 
 ## Testing
 
