@@ -211,7 +211,7 @@ p {
 .slide_1 {
   /* Image source https://unsplash.com/photos/a-fish-that-is-swimming-in-a-tank-HHJmF9Gtd78 */
   background-image: url('img/bg-images/blue-fish.webp');
-  background-position: 50% 75%;
+  background-position: 50% 50%;
 }
 
 .slide_2 {
@@ -465,6 +465,30 @@ footer p {
 /*
     About Us Styles
 */
+
+.about-us-header {
+  background: center / cover no-repeat url("img/bg-images/betta-in-elodea.webp");
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 10rem;;
+}
+
+.about-us-header:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 1;
+}
+
+.about-us-header > * {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
 
 @media screen and (max-width: 768px) {
   .about-us {

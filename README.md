@@ -27,7 +27,7 @@ In order to address the questions and concerns of the general public, Tamar Aqua
 
 - Establish the companies brand and visual identity
 - Provide information on services available on site
-- Provide bite sze and easy to digest information on animal care
+- Provide bite size and easy to digest information on animal care
 - Offer a comprehensive overview of current availability of stock
 - Establish the companies authority in animal care knowledge
 
@@ -43,7 +43,6 @@ As a first time visitor...
 - I want to easily understand the services available at the store.
 - I want to be able to easily navigate the site to find what I am looking for.
 - I want to be able to easily sign up for an account.
-- I want to easily be able to sign up for their newsletter.
 - I want to be able to find information on their current inventory.
 - I want to be able to make purchases through the website for either collection or delivery.
 
@@ -51,7 +50,7 @@ As a first time visitor...
 
 As a returning visitor...
 
-- I want to be able to see the latest additions to inventory.
+- I want to easily be able to sign up for their newsletter.
 - I want to be able to easily find information relevant to my query.
 - I want to be able to easily find contact information for the store.
 
@@ -71,7 +70,7 @@ As a frequent visitor...
 
 - Colour Scheme
 
-  The main colours used on the website are a deep blue, a lighter shade of blue, green, black and white. These colours allow me to create an aesthetic website while offering good contrast to improve readability of text as well as draw attention to important sections of the website. colour can have a massive impact on an individuals psychology and how they interprate a message. [The psychology of Color](https://99designs.com/blog/creative-inspiration/psychology-color-web-design/)
+  The main colours used on the website are a deep blue, a lighter shade of blue, black and white. These colours allow me to create an aesthetic website while offering good contrast to improve readability of text as well as draw attention to important sections of the website. colour can have a massive impact on an individuals psychology and how they interprate a message. [The psychology of Color](https://99designs.com/blog/creative-inspiration/psychology-color-web-design/)
 
 - Typography
 
