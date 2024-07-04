@@ -4,7 +4,7 @@ View the live website [here](https://jaimiehemmings.github.io/HTML-CSS-Project/)
 
 Tamar Aquatics is local aquarium store near me that I believe could use a website update in order to increase social media engagement and drive sales. Tamar Aquatics has a range of services beyond simply selling a variety of Coldwater and Tropical Fish.
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](assets/previews/preview.jpg)
 
 **Table of Content:**
 
