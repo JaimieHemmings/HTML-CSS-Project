@@ -111,6 +111,7 @@ As a frequent visitor...
 ### Frameworks, Libraries and Programmes Used
 
 1. [Josh's Custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+2. [MarketingTool Random Face Generator](https://www.marketingtool.online/en/face-generator/)
 2. [Google Fonts Ubuntu](https://fonts.google.com/specimen/Ubuntu)
 3. [CloudConvert](https://cloudconvert.com/)
    - For converting images to webp format.
