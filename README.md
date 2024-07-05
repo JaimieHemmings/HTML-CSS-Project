@@ -117,18 +117,18 @@ As a frequent visitor...
 4. [Bootstrap 5](https://getbootstrap.com/)
 5. [Font Awesome](https://fontawesome.com/)
 6. Photoshop
-  - Photoshop was used to resize and optimise images in preparation for use on the Tamar Aquatics Website.
+    - Photoshop was used to resize and optimise images in preparation for use on the Tamar Aquatics Website.
 7. Git
-  - Git was used for Version Control.
+    - Git was used for Version Control.
 8. GitHub
-  - GitHub is used as the repository for the project
+    - GitHub is used as the repository for the project
 9. Balsamiq
-  - Balsamiq was used to create the wireframes for the homepage of the website.
+    - Balsamiq was used to create the wireframes for the homepage of the website.
 10. Dev Tools were used to aid in the development and testing of the website across the following broswers:
-  - Chrome
-  - Safari
-  - Edge
-  - Firefox
+    - Chrome
+    - Safari
+    - Edge
+    - Firefox
 
 ## Testing
 
