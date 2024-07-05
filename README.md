@@ -6,7 +6,7 @@ Tamar Aquatics is local aquarium store near me that I believe could use a websit
 
 ![Responsive Mockup](assets/previews/preview.jpg)
 
-**Table of Content:**
+# Table of Content:
 
 - [Overview](#Overview)
 - [User Experience UX](#UX)
@@ -28,7 +28,6 @@ In order to address the questions and concerns of the general public, Tamar Aqua
 - Establish the companies brand and visual identity
 - Provide information on services available on site
 - Provide bite size and easy to digest information on animal care
-- Offer a comprehensive overview of current availability of stock
 - Establish the companies authority in animal care knowledge
 
 ## <a name="UX"></a>User Experience (UX)
@@ -42,29 +41,25 @@ As a first time visitor...
 - I want to be able to easily understand the purpose of the website.
 - I want to easily understand the services available at the store.
 - I want to be able to easily navigate the site to find what I am looking for.
-- I want to be able to easily sign up for an account.
-- I want to be able to find information on their current inventory.
-- I want to be able to make purchases through the website for either collection or delivery.
+- I want to easily find information on caring for fish.
 
 #### Reurning Visitor Goals
 
 As a returning visitor...
 
-- I want to easily be able to sign up for their newsletter.
 - I want to be able to easily find information relevant to my query.
 - I want to be able to easily find contact information for the store.
+- I want to easily find how to get to the store.
+- I want to find information on fish care.
 
 #### Frequent Visitor Goals
 
 As a frequent visitor...
 
-- I would like to find out about any upcoming events that may be happening in the store.
-- I would like to modify my preferences for newsletters.
+- I want to easily be able to sign up for their newsletter.
+- I would like to find the social media pages for the store.
 - I would like to know more about the store and the expertise of the staff.
-
-#### Frequent Visitor (Client) Goals
-
-- As a frequent visitor (client) I would like to be able to log in to my account.
+- I would like to be able to directly contact the staff.
 
 ### Design
 
@@ -95,7 +90,7 @@ As a frequent visitor...
 
 - The Tamar Aquatics Website needs to be responsive on all screen sizes.
 - The website uses rich media content and elements including Forms, links, and buttons.
-- The website features a Homepage, About Us, and a Contact page. A login page for fictional customers which redirects to a thank you page upon submission.
+- The website features a Homepage, About Us, and a Contact page.
 - The website also features an interactive carousel at the top of the homepage.
 - A form on the Contact page allows users to send a message to the owners of the website and offers the option to sign up for newsletters at the same time.
 - The website is compatible with assistive technology such as screen readers.
@@ -218,6 +213,55 @@ For the purposes of this project I am ignoring errors resulting from external CS
 
 I have made the decision to ignore this error as the inclusion of this property does not cause any issues in terms of readability or accessibility but does provide a slightly richer experience for users on the Chrome and Edge broswers.
 
+### Testing User Stories
+
+- First Time Visitor Goals
+
+  - I want to be able to easily understand the purpose of the website.
+
+    * Upon completion of the initial site load, users should arrive at the homepage. The initial feature presented to the user is a scrolling carousel displaying the various products and services available from the store.
+    ![Image of homepage Carousel](assets/img/user-stories/carousel.jpg)
+
+    * Below the carousel is marquee of associated brands immediately followed another section displaying a summary of offerings from the store, further elaborating the purpose of the website.
+    ![Image of the stores offerings](assets/img/user-stories/store-inventory.jpg)
+
+    * Again, below this section is another section explaining services offered beyond the sale of fish, aquariums and accessories. The user is also able to acquire help, support and advice on all manner of fish care related issues and queries.
+    ![Additional Services](assets/img/user-stories/additional-services.jpg)
+
+  - I want to easily understand the services available at the store.
+
+
+
+  - I want to be able to easily navigate the site to find what I am looking for.
+
+    * The website features a sticky navigation bar with clear links to various sections of the website ensuring that the user is able to easily navigate to other parts of the website regardless of what part of the website they are currently on.
+    ![Navigation](assets/img/user-stories/navigation.jpg)
+
+  - I want to easily find information on caring for fish.
+
+    * The homepage features a nearly full screen call to action reassuring the suer that the staff at the store are all very knowledgeable in terms of fish care and encourages them to get in touch using the contact form.
+    ![CTA](assets/img/user-stories/cta.jpg)
+    
+    * An FAQ section on the contact page provides the user with a number of solutions to common queries.
+    ![FAQ](assets/img/user-stories/faq.jpg)
+
+    * Beyond the FAQ the user is also encouraged to contact the store directly using the contact form for any other queries.
+    ![Contact Form](assets/img/user-stories/contact-form.jpg)
+
+    * I would have also liked to include specific fish care instructions and general aquarium set up guidance but that would have been beyond the scope of this project.
+
+- Returning Visitor Goals
+
+- Frequent Visitor Goals
+
+### Future Development
+
+  - An up to date display of current inventory
+  - Blogging functionality to allow the staff to post updates and case studies
+  - Account functionality allowing users to log in and make orders for either click &amp; collect or delivery and pay online
+  - Fish care guides for individual species
+  - Aquarium set up guides
+
 ## Deployment
 
 ### GitHub Pages
@@ -235,19 +279,24 @@ I have made the decision to ignore this error as the inclusion of this property 
 
 ## Credits
 
+### Code
+
+- Special thanks to Josh for his [CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+
 ### Content
 
+- All content for the project was written by the developer.
 - The Code Institute README template was used as the basis for the creation of this project's README file.
 
 ### Media
 
-[Unsplash](https://unsplash.com/) Was used to source images used across the site.
-
-[99designs](https://99designs.com/inspiration/logos/aquarium) for various fake logos.
+- [Unsplash](https://unsplash.com/) Was used to source images used across the site.
+- [99designs](https://99designs.com/inspiration/logos/aquarium) for various fake logos.
 
 ## Acknowledgements
 
 - Special thanks to Code Institute for a highly effective and engagement learning environment and to East Kent College for the support and insights offered into the assessment criteria.
+- Additional thanks to my Mentor, Brian Macharia, for taking the time to provide me with feedback and guidance.
 
 ## Copyright
 
