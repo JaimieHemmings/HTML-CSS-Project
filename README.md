@@ -176,6 +176,20 @@ In order to ensure my code was W3C compliant and reduce the possibility of any b
 
 ![Lighthouse report of contact page on desktop](assets/img/lighthouse-results/lighthouse-contact-desktop.jpg)
 
+#### a11y Contrast Test
+
+- Homepage Contrast Test Result
+
+![Homepage Contrast Test Result](assets/img/a11y-test-results/a11y-homepage-result.jpg)
+
+- About Page Contrast Test Result
+
+![About Page Contrast Test Result](assets/img/a11y-test-results/a11y-about-page-result.jpg)
+
+- Contact Page Contrast Test Result
+
+![Contact Page Contrast Test Result](assets/img/a11y-test-results/a11y-contact-page-result.jpg)
+
 ## Deployment
 
 ### GitHub Pages
