@@ -403,9 +403,10 @@ p {
   width: 100%;
 }
 
-.contact-section .contact-form input[type=textarea] {
+.contact-section .contact-form textarea {
   width: 100%;
   min-height: 200px;
+  margin-bottom: 1rem;
 }
 
 .contact-form p span {
