@@ -485,7 +485,7 @@ footer p {
 */
 
 .about-us-header {
-  background: center / cover no-repeat url("img/bg-images/betta-in-elodea.webp");
+  background: #000 center / cover no-repeat url("img/bg-images/betta-in-elodea.webp");
   position: relative;
   padding-top: 4rem;
   padding-bottom: 10rem;;
