@@ -38,8 +38,7 @@ In order to address the questions and concerns of the general public, Tamar Aqua
 
 As a first time visitor...
 
-- I want to be able to easily understand the purpose of the website.
-- I want to easily understand the services available at the store.
+- I want to be able to easily understand the purpose of the website and the services available.
 - I want to be able to easily navigate the site to find what I am looking for.
 - I want to easily find information on caring for fish.
 
@@ -217,7 +216,7 @@ I have made the decision to ignore this error as the inclusion of this property 
 
 - First Time Visitor Goals
 
-  - I want to be able to easily understand the purpose of the website.
+  - I want to be able to easily understand the purpose of the website and the services available.
 
     * Upon completion of the initial site load, users should arrive at the homepage. The initial feature presented to the user is a scrolling carousel displaying the various products and services available from the store.
     ![Image of homepage Carousel](assets/img/user-stories/carousel.jpg)
@@ -227,10 +226,6 @@ I have made the decision to ignore this error as the inclusion of this property 
 
     * Again, below this section is another section explaining services offered beyond the sale of fish, aquariums and accessories. The user is also able to acquire help, support and advice on all manner of fish care related issues and queries.
     ![Additional Services](assets/img/user-stories/additional-services.jpg)
-
-  - I want to easily understand the services available at the store.
-
-
 
   - I want to be able to easily navigate the site to find what I am looking for.
 
@@ -252,8 +247,50 @@ I have made the decision to ignore this error as the inclusion of this property 
 
 - Returning Visitor Goals
 
+  - I want to be able to easily find information relevant to my query.
+
+    * With a simplistic navigation and basic site layout I cannot quantify this under any metric. In future I would be more specific with my goals in terms of user stories. However, upon loading the website the user is presented with a clean and descriptive navigation bar allowing them to navigate across the website. Additionally, there are a number of call to actions that I would expect would help navigate the user to their desired content.
+
+  - I want to be able to easily find contact information for the store.
+
+    * The contact page of the website displays a comprehensive amount of information about the store including opening times, even highlighting the current day as well as contact information.
+    ![Contact Info](assets/img/user-stories/contact-info.jpg)
+
+  - I want to easily find how to get to the store.
+
+    * The homepage features a Google maps iframe allowing the user to easily navigate to the store using the Google Maps website on a desktop computer or laptop or the app on a mobile device.
+    The contact page even displays the stores full address.
+    ![Google maps iframe](assets/img/user-stories/google-maps.jpg)
+
+  - I want to find information on fish care.
+
+    * The contact page shows the user an FAQ covering a variety of commonly asked questions.
+    ![FAQ Section](assets/img/user-stories/faq.jpg)
+
+    * If their specific query isn't covered in the FAQ they are encouraged to get in touch directly with store employees for further advice.
+    ![Contact Form](assets/img/user-stories/contact-form.jpg)
+  
 - Frequent Visitor Goals
 
+  - I want to easily be able to sign up for their newsletter.
+
+    * The contact form doubles as an optional way for users to sign up for the newsletter
+    ![Contact Form](assets/img/user-stories/contact-form.jpg)
+
+  - I would like to find the social media pages for the store.
+    
+    * Links to the stores social media pages are easily accessible in the navbar which is visible at all times.
+    ![Social links in the Nav bar](assets/img/user-stories/navigation.jpg)
+
+  - I would like to know more about the store and the expertise of the staff.
+
+    * The about page of the website covers this in some detail, assuring the user of the staffs expertise.
+
+  - I would like to be able to directly contact the staff.
+
+    * The contact forms available on the homepage and contact page are easily accessible and allow the user to do this.
+    ![Contact Form](assets/img/user-stories/contact-form.jpg)
+  
 ### Future Development
 
   - An up to date display of current inventory
