@@ -85,10 +85,53 @@
         <section class="px-4 my-5 text-center border-bottom about-us-header" role="img" aria-label="Betta Fish investigating a plant" title="Betta Fish investigating a plant">
             <h1 class="display-4 fw-bold">Contact Us</h1>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">We love getting feedback from you, good or bad. Rest assured we act on everything we recieve.</p>
+              <p class="lead mb-4">We love getting feedback from you, good or bad. Rest assured we act on everything we recieve.</p>
         </section>
     </header>
     <main>
+
+
+      <section class="container pb-5">
+        <div class="row">
+          <div class="col-sm">
+            <h2 class="color-primary">Contact Details</h2>
+            <p>Feel free to get in touch with us using the details below:</p>
+            <p>Address: <address>Tamar Aquatics,<br>Tamar View Garden Centre,<br>Saltash PL12 6PH</address></p>
+            <p><a href="tel:01752847117">01752 847117</a></p>
+            <p><a href="mailto:tamaraquatics@gmail.com">tamaraquatics@gmail.com</a></p>
+
+            <p>Alternatively use the form below to send us a message and we'll get back to you!</p>
+          </div>
+          <div class="col-sm business-hours">
+            <h2 class="color-primary">Opening Hours</h2>
+            <ul class="list-unstyled opening-hours">
+              <li>Sunday <span class="pull-right">10:00 - 16:00</span></li>
+              <li>Monday <span class="pull-right">9:00 - 17:00</span></li>
+              <li>Tuesday <span class="pull-right">9:00 - 17:00</span></li>
+              <li>Wednesday <span class="pull-right">9:00 - 17:00</span></li>
+              <li>Thursday <span class="pull-right">9:00 - 17:00</span></li>
+              <li>Friday <span class="pull-right">9:00 - 17:00</span></li>
+              <li>Saturday <span class="pull-right">9:00 - 17:00</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <script type="text/javascript" defer>
+        // Add class to li if current day
+        const date = new Date();
+        const day = date.getDay();
+        const days = document.querySelectorAll('.opening-hours li');
+        days.forEach((li, index) => {
+          if (index === day) {
+            li.classList.add('today');
+            li.classList.add('fw-bold');
+          }
+        });
+        
+      </script>
+
+
+
         <section class="faq container mb-5">
             <div class="row">
                 <div class="col pt-2 pb-2">
@@ -158,11 +201,11 @@
                         <fieldset>
                             <legend>Your Details</legend>
                             <label for="fname">First Name<span class="req">*</span> </label>
-                            <input type="text" id="fname" name="fname" required>
-                            <label for="lname">Last Name<span class="req">*</span> </label>
-                            <input type="text" id="lname" name="lname" required>
+                            <input type="text" id="fname" name="fname" placeholder="Jon" required>
+                            <label for="lname">Last Name<span class="req" >*</span> </label>
+                            <input type="text" id="lname" name="lname" placeholder="Doe" required>
                             <label for="emailaddress">Email Address<span class="req">*</span> </label>
-                            <input type="email" id="emailaddress" name="emailaddress" required>
+                            <input type="email" id="emailaddress" name="emailaddress" placeholder="jon@example.com" required>
                           </fieldset>
                     </div>
                     <div class="col-md">
@@ -174,7 +217,7 @@
                               <input name="newsletter" type="radio" value="yes" id="radio-yes">
                               <br>
                               <label for="radio-no">No</label>
-                              <input name="newsletter" type="radio" value="no" id="radio-no">
+                              <input name="newsletter" type="radio" value="no" id="radio-no" checked="checked" required>
                             </div>
                         </fieldset>
                     </div>
@@ -183,7 +226,7 @@
                     <fieldset>
                         <legend>Your Message</legend>
                         <label for="message">Enter your Message<span class="req">*</span> </label>
-                        <textarea id="message" name="message" required></textarea>
+                        <textarea id="message" name="message" placeholder="Enter your message here" required></textarea>
                     </fieldset>
                 </div>
                 <div class="row">

@@ -459,6 +459,10 @@ p {
   }
 }
 
+.req {
+  color: red;
+}
+
 
 /*
     Footer Styles
@@ -513,4 +517,29 @@ footer p {
 .items-icon {
   font-size: 32px;
   color: var(--primary-color);
+}
+
+/*
+  Business Hours Styles
+*/
+
+.business-hours li {
+  color: #888;
+  line-height: 30px;
+  border-bottom: 1px solid #333;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+
+.business-hours li:last-child {
+  border-bottom: none; 
+}
+
+.business-hours .opening-hours li.today {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.pull-right {
+  float: right;
 }
