@@ -142,6 +142,40 @@ During the development stage I continuously carried out tests across a variety o
 
 2. Using the `background-attachment: fixed` is not supported on iOS devices and is a known long standing issue. While this is not important to the functionality of the page itself, I felt it was disappointing not to have the pseudo-parallax feature present on iOS mobile devices. Fortunately I found [this](https://webers-testseite.de/donkey/) that provides a work around by simply creating a pseudo class on the parent element and then using position fixed with the background image contained within that.
 
+### Remaining Bugs
+
+No other bugs have been found.
+
+### Validation Results
+
+In order to ensure my code was W3C compliant and reduce the possibility of any bugs or broken code I used W3C Markup validation, W3C CSS Validation and Lighthouse Testing Reports on all pages across the website. The Lighthouse Testing Reports also test for Performance, Accessibility, Best Practices and SEO.
+
+#### Lighthouse Test Results
+
+- Index page on Mobile
+
+![Lighthouse report of index page on mobile](assets/img/lighthouse-results/lighthouse-index-mobile.jpg)
+
+- Index page on Desktop
+
+![Lighthouse report of index page on desktop](assets/img/lighthouse-results/lighthouse-index-desktop.jpg)
+
+- About page on Mobile
+
+![Lighthouse report of about page page on mobile](assets/img/lighthouse-results/lighthouse-about-mobile.jpg)
+
+- About page on Desktop
+
+![Lighthouse report of about page on desktop](assets/img/lighthouse-results/lighthouse-about-desktop.jpg)
+
+- Contact page on Mobile
+
+![Lighthouse report of contact page on mobile](assets/img/lighthouse-results/lighthouse-contact-mobile.jpg)
+
+- Contact page on Desktop
+
+![Lighthouse report of contact page on desktop](assets/img/lighthouse-results/lighthouse-contact-desktop.jpg)
+
 ## Deployment
 
 ### GitHub Pages
