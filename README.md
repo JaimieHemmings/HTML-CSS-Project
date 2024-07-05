@@ -106,6 +106,8 @@ As a frequent visitor...
 
 - HTML
 - CSS
+- JavaScript
+    * To highlight current day on business hours.
 
 ### Frameworks, Libraries and Programmes Used
 

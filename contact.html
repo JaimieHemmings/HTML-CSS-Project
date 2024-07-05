@@ -95,7 +95,8 @@
           <div class="col-sm">
             <h2 class="color-primary">Contact Details</h2>
             <p>Feel free to get in touch with us using the details below:</p>
-            <p>Address: <address>Tamar Aquatics,<br>Tamar View Garden Centre,<br>Saltash PL12 6PH</address></p>
+            <p>Address:</p>
+            <address>Tamar Aquatics,<br>Tamar View Garden Centre,<br>Saltash PL12 6PH</address>
             <p><a href="tel:01752847117">01752 847117</a></p>
             <p><a href="mailto:tamaraquatics@gmail.com">tamaraquatics@gmail.com</a></p>
 
@@ -115,19 +116,6 @@
           </div>
         </div>
       </section>
-      <script type="text/javascript" defer>
-        // Add class to li if current day
-        const date = new Date();
-        const day = date.getDay();
-        const days = document.querySelectorAll('.opening-hours li');
-        days.forEach((li, index) => {
-          if (index === day) {
-            li.classList.add('today');
-            li.classList.add('fw-bold');
-          }
-        });
-        
-      </script>
       <section class="faq container mb-5">
         <div class="row">
           <div class="col pt-2 pb-2">
@@ -241,6 +229,18 @@
       <div class="container">
         <p>&copy;2024 Tamar Aquatics</p>
       </div>
-    </footer>    
+    </footer> 
+    <script type="text/javascript">
+      // Add class to business hours li if current day
+      const date = new Date();
+      const day = date.getDay();
+      const days = document.querySelectorAll('.opening-hours li');
+      days.forEach((li, index) => {
+        if (index === day) {
+          li.classList.add('today');
+          li.classList.add('fw-bold');
+        }
+      });
+    </script>   
   </body>
 </html>
