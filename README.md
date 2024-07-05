@@ -202,11 +202,21 @@ In order to ensure my code was W3C compliant and reduce the possibility of any b
 
 #### W3C HTML Test Results
 
+[Homepage Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjaimiehemmings.github.io%2FHTML-CSS-Project%2F)
+
+[About Page Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjaimiehemmings.github.io%2FHTML-CSS-Project%2Fabout.html)
+
+[Contact Page Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjaimiehemmings.github.io%2FHTML-CSS-Project%2Fcontact.html)
+
+As you can see from the above results, my HTML has no errors and one warning. The warning is due to a comment above an image where I give credit to the source of the image used. For this reason I have ignored this warning.
+
 #### W3C CSS Test Results
 
-For the purposes of this project I have ignored errors resulting from external CSS packages. (Bootstrap for example)
+Results can be viewed [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjaimiehemmings.github.io%2FHTML-CSS-Project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+For the purposes of this project I am ignoring errors resulting from external CSS packages, (Bootstrap for example). In my own CSS I have one error relating to the previously mentioned issue of using the `animation-timeline` property which is not yet implemented broadly across all browsers.
 
+I have made the decision to ignore this error as the inclusion of this property does not cause any issues in terms of readability or accessibility but does provide a slightly richer experience for users on the Chrome and Edge broswers.
 
 ## Deployment
 
