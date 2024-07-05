@@ -69,7 +69,7 @@ p {
 
 .autoshow {
   animation: autoshowAnimation both;
-  animation-timeline: view(40% 15%);
+  animation-timeline: view(65% 5%);
 }
 
 @keyframes autoshowAnimation {
@@ -395,6 +395,7 @@ p {
 
 .contact-section .contact-form input {
   margin-bottom: 1rem;
+  padding: 0.5rem;
 }
 
 .contact-section .contact-form input,
@@ -407,6 +408,7 @@ p {
   width: 100%;
   min-height: 200px;
   margin-bottom: 1rem;
+  padding: 0.5rem;
 }
 
 .contact-form p span {
