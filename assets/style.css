@@ -99,6 +99,7 @@ p {
   iOS hack to fix the background-attachment: fixed issue
   https://webers-testseite.de/donkey/
 */
+
 .bg-fixed {
   background-size: 0px !important;
   overflow: hidden;
@@ -514,11 +515,6 @@ footer p {
   .about-us {
     text-align: center;
   }
-}
-
-.items-icon {
-  font-size: 32px;
-  color: var(--primary-color);
 }
 
 /*
