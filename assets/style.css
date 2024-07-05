@@ -17,7 +17,6 @@
 }
 body {
   line-height: 1.5;
-  font-smooth: auto; /* I have modified this line to remove vendor prefixing that the author originally used. */
 }
 canvas,
 img,
@@ -54,7 +53,7 @@ p {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip-path: rect(0, 0, 0, 0);
+  clip-path: rect(0px, 0px, 0px, 0px);
   white-space: nowrap;
   border-width: 0;
 }
@@ -75,11 +74,11 @@ p {
 @keyframes autoshowAnimation {
   from {
     opacity: 0;
-    scale: 0.8;
+    transform: scale(0.85);
   }
   to {
     opacity: 1;
-    scale: 1;
+    transform: scale(1);
   }
 }
 
@@ -437,7 +436,6 @@ p {
   transition: color .15s ease-in-out,
     background-color .15s ease-in-out,
     box-shadow .15s ease-in-out;
-  font: inheret;
 }
 
 .contact-section input[type="submit"]:hover {

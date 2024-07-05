@@ -150,7 +150,7 @@ During the development stage I continuously carried out tests across a variety o
 
 6. In order to improve my Lighthouse score for performance I also optimised the size of a lot of the images used on the website and converted the jpg and png images to webp to further optimise them and reduce network traffic and contentful paint times.
 
-7. In Josh's CSS Reset, a vendor prefix was used: `-webkit-font-smoothing`. This returns an error in the W3C Validator for CSS so I have edited this line when implementing his CSS Reset in my own stylesheet to instead use: `font-smooth: auto;`.
+7. In Josh's CSS Reset, a vendor prefix was used: `-webkit-font-smoothing`. [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth) recommend not using this feature as it is non-standard. It also is returned as non-compliant by the W3C CSS Validator. I have therefore removed it from my CSS.
 
 ### Remaining Bugs
 
