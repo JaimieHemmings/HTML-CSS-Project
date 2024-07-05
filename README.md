@@ -142,6 +142,16 @@ During the development stage I continuously carried out tests across a variety o
 
 2. Using the `background-attachment: fixed` is not supported on iOS devices and is a known long standing issue. While this is not important to the functionality of the page itself, I felt it was disappointing not to have the pseudo-parallax feature present on iOS mobile devices. Fortunately I found [this](https://webers-testseite.de/donkey/) that provides a work around by simply creating a pseudo class on the parent element and then using position fixed with the background image contained within that.
 
+3. After speaking to my mentor, he highlighted the input areas on the form appeared small and cramped. Taking this feedback on board I have added appropriate padding to the input and textarea inputs on the form, making them appear more intentionally styled.
+
+4. Testing my site with the Lighthouse testing tools highlighted an issue where adding aria labels for a background image directly to a div tag was against conventions. I have therefore placed the aria labels inside the div using an `sr-only` classed span.
+
+5. W3C Validation also brought to my attention an issue with using defer on an inline script. I have therefore removed the attribute and placed the script at the bottom of the page just before the closing `body` tag.
+
+6. In order to improve my Lighthouse score for performance I also optimised the size of a lot of the images used on the website and converted the jpg and png images to webp to further optimise them and reduce network traffic and contentful paint times.
+
+7. In Josh's CSS Reset, a vendor prefix was used: `-webkit-font-smoothing`. This returns an error in the W3C Validator for CSS so I have edited this line when implementing his CSS Reset in my own stylesheet to instead use: `font-smooth: auto;`.
+
 ### Remaining Bugs
 
 No other bugs have been found.
@@ -189,6 +199,14 @@ In order to ensure my code was W3C compliant and reduce the possibility of any b
 - Contact Page Contrast Test Result
 
 ![Contact Page Contrast Test Result](assets/img/a11y-test-results/a11y-contact-page-result.jpg)
+
+#### W3C HTML Test Results
+
+#### W3C CSS Test Results
+
+For the purposes of this project I have ignored errors resulting from external CSS packages. (Bootstrap for example)
+
+
 
 ## Deployment
 

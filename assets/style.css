@@ -17,7 +17,7 @@
 }
 body {
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  font-smooth: auto; /* I have modified this line to remove vendor prefixing that the author originally used. */
 }
 canvas,
 img,
@@ -54,7 +54,7 @@ p {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip-path: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
 }
@@ -436,7 +436,6 @@ p {
   text-decoration: none;
   transition: color .15s ease-in-out,
     background-color .15s ease-in-out,
-    border-color .15s ease-in-out,
     box-shadow .15s ease-in-out;
   font: inheret;
 }
