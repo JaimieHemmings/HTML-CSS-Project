@@ -285,6 +285,7 @@ I have made the decision to ignore this error as the inclusion of this property 
   - I would like to know more about the store and the expertise of the staff.
 
     * The about page of the website covers this in some detail, assuring the user of the staffs expertise.
+      ![Team Section](assets/img/user-stories/team.jpg)
 
   - I would like to be able to directly contact the staff.
 
