@@ -154,6 +154,16 @@ No other bugs have been found.
 
 In order to ensure my code was W3C compliant and reduce the possibility of any bugs or broken code I used W3C Markup validation, W3C CSS Validation and Lighthouse Testing Reports on all pages across the website. The Lighthouse Testing Reports also test for Performance, Accessibility, Best Practices and SEO.
 
+### Browser Testing
+
+In order to ensure the websites displayed and worked properly across all major browsers, I loaded it in Chrome, Edge, Firefox and Safari to ensure there were no major bugs or discrepencies between all 4 browsers.
+
+![Website displayed in Firefox](/assets/img/browser-testing/firefox-screenshot-of-tamar-aquatics-website.jpg)
+
+![Website displayed in Chrome](/assets/img/browser-testing/chrome-screenshot-of-tamar-aquatics-website.jpg)
+
+![Website displayed in Edge](/assets/img/browser-testing/edge-screenshot-of-tamar-aquatics-website.jpg)
+
 #### Lighthouse Test Results
 
 - Index page on Mobile
