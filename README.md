@@ -158,9 +158,15 @@ In order to ensure my code was W3C compliant and reduce the possibility of any b
 
 In order to ensure the websites displayed and worked properly across all major browsers, I loaded it in Chrome, Edge, Firefox and Safari to ensure there were no major bugs or discrepencies between all 4 browsers.
 
+#### Firefox
+
 ![Website displayed in Firefox](/assets/img/browser-testing/firefox-screenshot-of-tamar-aquatics-website.jpg)
 
+### Chrome
+
 ![Website displayed in Chrome](/assets/img/browser-testing/chrome-screenshot-of-tamar-aquatics-website.jpg)
+
+#### Edge
 
 ![Website displayed in Edge](/assets/img/browser-testing/edge-screenshot-of-tamar-aquatics-website.jpg)
 
