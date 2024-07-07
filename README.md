@@ -320,6 +320,7 @@ I have made the decision to ignore this error as the inclusion of this property 
 ### Code
 
 - Special thanks to Josh for his [CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+- Additional thanks to [Kevin Powell](https://www.kevinpowell.co/), while his code was not specifically used in this project, a lot of my CSS knowledge comes from watching his YouTube Content
 
 ### Content
 
@@ -329,7 +330,7 @@ I have made the decision to ignore this error as the inclusion of this property 
 ### Media
 
 - [Unsplash](https://unsplash.com/) Was used to source images used across the site.
-- [99designs](https://99designs.com/inspiration/logos/aquarium) for various fake logos.
+- [99designs](https://99designs.com/inspiration/logos/aquarium) for various fake logos to be used as placeholders during development.
 
 ## Acknowledgements
 
