@@ -72,9 +72,11 @@ p {
   --primary-color: #0d6efd;
 }
 
-.autoshow {
-  animation: autoshowAnimation both;
-  animation-timeline: view(65% 5%);
+@supports (animation-timeline: view(65% 5%)){
+  .autoshow {
+    animation: autoshowAnimation both;
+    animation-timeline: view(65% 5%);
+  }
 }
 
 @keyframes autoshowAnimation {
