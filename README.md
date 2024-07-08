@@ -326,6 +326,10 @@ I have made the decision to ignore this error as the inclusion of this property 
   - Fish care guides for individual species
   - Aquarium set up guides
 
+### Development Notes
+
+  - The scrolling brand marquee on the homepage was implemented without the use of Javascript. In order to be able to do this an inline-css variable was assigned to each element within the marquee container. This variable was then used in the CSS calculations to determine the animation delays.
+
 ## Deployment
 
 ### GitHub Pages

@@ -230,19 +230,19 @@ p {
   margin-bottom: 35px;
 }
 
-.slide_1 {
+.slide-1 {
   /* Image source https://unsplash.com/photos/a-fish-that-is-swimming-in-a-tank-HHJmF9Gtd78 */
   background-image: url('../img/bg-images/blue-fish.webp');
   background-position: 50% 50%;
 }
 
-.slide_2 {
+.slide-2 {
   /* Image Source https://unsplash.com/photos/blue-and-red-butterfly-on-green-plant-D6JnQr-HYd8 */
   background-image: url('../img/bg-images/betta-in-elodea.webp');
   background-position: 50% 35%;
 }
 
-.slide_3 {
+.slide-3 {
   /* Image Source https://unsplash.com/photos/orange-koi-fish-on-body-of-water-S5RwcwBS2lQ */
   background-image: url('../img/bg-images/fish-in-pond.webp');
   background-position: 50% 60%;
