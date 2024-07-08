@@ -307,6 +307,16 @@ I have made the decision to ignore this error as the inclusion of this property 
 
     * The contact forms available on the homepage and contact page are easily accessible and allow the user to do this.
     ![Contact Form](assets/img/user-stories/contact-form.jpg)
+
+### Functionality Testing
+| Test Label                                 | Test Action                                                                                      | Expected Outcome                                                                            | Pass/Fail |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | --------- |
+| FAQ Dropdown functionality on Contact Page | Click each of the questions in the FAQ section                                                   | When you click an FAQ question the corresponding answer should reveal.                      | PASS      |
+| Social Icons in Navigation bar             | Click each of the social icons in the navigation bar                                             | A new tab should open directing the user to the corresponding social page for the business. | PASS      |
+| Opening Hours                              | In the Opening Hours table on the contact page the correct day should be highlighted.            | Todays day should be highlighted in the list of days                                        | PASS      |
+| Form Validation                            | Try to submit the forms on the Homepage and Contact page with invalid data for the email address | Appropriate errors should highlight incorrect data entry                                    | PASS      |
+| Empty data in form                         | Try to submit the form with empty data in each of the fields                                     | An error should highlight the field requiring the user to enter data                        | PASS      |
+| Internal Links                             | Click each of the internal links on the website                                                  | The link(s) navigates to the correct section of the website.                                | PASS      |
   
 ### Future Development
 
