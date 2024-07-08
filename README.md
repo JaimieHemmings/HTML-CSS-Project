@@ -335,12 +335,12 @@ I have made the decision to ignore this error as the inclusion of this property 
 
 - In order to clone the repository follow the steps below:
 
-  1. Go to the [repository](https://github.com/JaimieHemmings/HTML-CSS-Project)
-  2. Click the button labelled "Code" to the top right of the screen
-  3. Click HTTPs and copy the link provided
-  4. In your local environment navigate to the desired directory
-  5. Open a terminal and type "git clone" followed by the URL you copied in step 3.
-  6. Press enter to begin the cloning process.
+1. Go to the [repository](https://github.com/JaimieHemmings/HTML-CSS-Project)
+2. Click the button labelled "Code" to the top right of the screen
+3. Click HTTPs and copy the link provided
+4. In your local environment navigate to the desired directory
+5. Open a terminal and type "git clone" followed by the URL you copied in step 3.
+6. Press enter to begin the cloning process.
 
 ## Credits
 
