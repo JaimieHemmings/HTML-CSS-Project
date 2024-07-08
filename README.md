@@ -196,6 +196,43 @@ In order to ensure the websites displayed and worked properly across all major b
 
 ![Lighthouse report of contact page on desktop](assets/img/lighthouse-results/lighthouse-contact-desktop.jpg)
 
+#### Responsiveness Testing
+
+The website was tested across a range of devices, for documentations sake, below is a series of screenshots of the website at some of the more common resolutions.
+
+##### 1920x1080
+
+![1920x1080](assets/resolution-tests/1920x1080.jpg)
+
+##### 1366x768
+
+![1366x768](assets/resolution-tests/1366x768.jpg)
+
+##### 1280x1024
+
+![1280x1024](assets/resolution-tests/1280x1024.jpg)
+
+##### 1024x768
+
+![1024x768](assets/resolution-tests/1024x768.jpg)
+
+##### 768x1024
+
+![768x1024](assets/resolution-tests/768x1024.jpg)
+
+##### 375x667
+
+![375x667](assets/resolution-tests/375x667.jpg)
+
+##### 360x800
+
+![360x800](assets/resolution-tests/360x800.jpg)
+
+##### 601x962
+
+![601x962](assets/resolution-tests/601x962.jpg)
+
+
 #### a11y Contrast Test
 
 - Homepage Contrast Test Result
