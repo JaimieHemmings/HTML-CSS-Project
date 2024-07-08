@@ -212,7 +212,8 @@ p {
   height: 100%;
 }
 
-.carousel-item .container h2 {
+.carousel-item .container h2,
+.carousel-item .container h1 {
   margin-top: 100px;
   line-height: 1.5;
   margin-bottom: 15px;
