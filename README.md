@@ -1,8 +1,8 @@
-# Tamar Aquatics Website Refresh
+# Fish Aquatics Website
 
 View the live website [here](https://jaimiehemmings.github.io/HTML-CSS-Project/)
 
-Tamar Aquatics is local aquarium store near me that I believe could use a website update in order to increase social media engagement and drive sales. Tamar Aquatics has a range of services beyond simply selling a variety of Coldwater and Tropical Fish.
+Fish Aquatics is a fictional company I created for the purpose of this project. The purpose is to build a small website that allows the fictional company to create a small online presence that the general public could use as an initial point of contact and then direct their query appropriately if necassary and provide additional information.
 
 ![Responsive Mockup](assets/previews/preview.jpg)
 
@@ -19,11 +19,11 @@ Tamar Aquatics is local aquarium store near me that I believe could use a websit
 
 ## Overview
 
-As a stockist of live coldwater and tropical fish as well as a range of aquariums, decorations, substrates, food, aquarium plants and various other accessories, Tamar Aquatics needs a way to communicate their stock and services to the general public.
+As a stockist of live coldwater and tropical fish as well as a range of aquariums, decorations, substrates, food, aquarium plants and various other accessories, Fish Aquatics needs a way to communicate their stock and services to the general public.
 
-In addition to this, Tamar Aquatics also has several members on staff that are qualified experts in animal husbandry.
+In addition to this, Fish Aquatics also has several members on staff that are qualified experts in animal husbandry.
 
-In order to address the questions and concerns of the general public, Tamar Aquatics website needs to:
+In order to address the questions and concerns of the general public, Fish Aquatics website needs to:
 
 - Establish the companies brand and visual identity
 - Provide information on services available on site
@@ -87,7 +87,7 @@ As a frequent visitor...
 
 ## Features
 
-- The Tamar Aquatics Website needs to be responsive on all screen sizes.
+- The Fish Aquatics Website needs to be responsive on all screen sizes.
 - The website uses rich media content and elements including Forms, links, and buttons.
 - The website features a Homepage, About Us, and a Contact page.
 - The website also features an interactive carousel at the top of the homepage.
@@ -113,7 +113,7 @@ As a frequent visitor...
 4. [Bootstrap 5](https://getbootstrap.com/)
 5. [Font Awesome](https://fontawesome.com/)
 6. Photoshop
-    - Photoshop was used to resize and optimise images in preparation for use on the Tamar Aquatics Website.
+    - Photoshop was used to resize and optimise images in preparation for use on the Fish Aquatics Website.
 7. Git
     - Git was used for Version Control.
 8. GitHub
